@@ -113,3 +113,19 @@ body {
 h1{
     padding: 20px;
 }
+
+.flashing-word {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+    animation: flash 4s infinite alternate;
+}
+
+ @keyframes flash {
+        0% {color: black;}
+        50% {color: blue; }
+        100% {color: green;}
+    } 
